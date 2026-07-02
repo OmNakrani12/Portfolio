@@ -68,19 +68,6 @@ const projectsList = [
     demo: 'https://github.com/OmNakrani12',
     caseStudy: '#contact',
     gridSpan: 'span-1-col'
-  },
-  {
-    id: 'sagemaker',
-    title: 'AWS SageMaker ML Deployment',
-    subtitle: 'Scale ML Pipelines on the Cloud',
-    description: 'Designed automated pipelines that train machine learning models and deploy them to hosted AWS SageMaker endpoints for high-throughput client API inferences.',
-    features: ['Automated ETL Pipeline', 'SageMaker Endpoint Autoscaling', 'Docker Container Model Images', 'A/B Endpoint Model Testing'],
-    tech: ['AWS SageMaker', 'Docker', 'Python', 'Boto3', 'AWS Lambda'],
-    image: '/projects/sagemaker.png',
-    github: 'https://github.com/OmNakrani12',
-    demo: 'https://github.com/OmNakrani12',
-    caseStudy: '#contact',
-    gridSpan: 'span-2-cols'
   }
 ];
 

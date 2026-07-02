@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Brand details */}
         <div className="footer-left">
           <a href="#home" className="footer-logo">
-            Om<span className="logo-dot">.</span>
+            Om  Anilbhai  Nakrani<span className="logo-dot">.</span>
           </a>
           <p>Building high-performance software with cloud scale and machine intelligence.</p>
         </div>

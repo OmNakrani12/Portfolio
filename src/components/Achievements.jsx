@@ -6,31 +6,31 @@ import '../styles/Achievements.css';
 const achievementsList = [
   {
     category: 'Competitive Programming',
-    title: '580+ Solved, Specialist Rating',
-    description: 'Solved over 400 LeetCode problems and achieved Specialist rating (1432) on Codeforces. Ranked in the top 8% of coders on Coding Ninjas (Ninja Gold Level 7).',
+    title: '1100+ Solved, Specialist Rating',
+    description: 'Solved over 1100 LeetCode problems and achieved Specialist rating (1636) on Leetcode. Ranked in the top 30% of coders on TakeUForward.',
     icon: <FiTarget />,
-    metric: '580+ Solved'
+    metric: '1100+ Solved'
   },
   {
     category: 'Hackathons',
-    title: '1st Runner Up Winner',
-    description: 'Led development of SplitGrow at Smart City National Hackathon, designing real-time offline-sync features and outperforming 50+ regional teams.',
+    title: 'Software Development Hackathon',
+    description: 'Built a working project within the hackathon timeframe, applying full-stack development skills, teamwork, and effective problem-solving.',
     icon: <FiAward />,
-    metric: 'Top 3 Finisher'
+    metric: 'Project Built'
   },
   {
     category: 'Projects',
     title: 'AI Resume SaaS Launch',
     description: 'Designed, built, and launched ResuNexa AI Analyzer, helping peers and beta testers achieve higher ATS scores and resume formatting standardizations.',
     icon: <FiCpu />,
-    metric: '100+ Beta Users'
+    metric: '10+ Beta Users'
   },
   {
     category: 'Open Source',
     title: 'React Native Contributor',
     description: 'Contributed code enhancements to public libraries, built open-source utilities for coordinates tracking, and published responsive starter kits.',
     icon: <FiGitBranch />,
-    metric: '150+ Contributions'
+    metric: '50+ Contributions'
   }
 ];
 

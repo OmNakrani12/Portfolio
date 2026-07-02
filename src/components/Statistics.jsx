@@ -40,10 +40,10 @@ const StatCounter = ({ endValue, label, suffix = '' }) => {
 
 const Statistics = () => {
   const statsList = [
-    { endValue: 20, label: 'Completed Projects', suffix: '+' },
-    { endValue: 400, label: 'LeetCode Problems', suffix: '+' },
-    { endValue: 150, label: 'GitHub Contributions', suffix: '+' },
-    { endValue: 15, label: 'Technologies Mastered', suffix: '+' }
+    { endValue: 5, label: 'Completed Projects', suffix: '+' },
+    { endValue: 1100, label: 'LeetCode Problems', suffix: '+' },
+    { endValue: 100, label: 'GitHub Contributions', suffix: '+' },
+    { endValue: 20, label: 'Technologies Mastered', suffix: '+' }
   ];
 
   return (

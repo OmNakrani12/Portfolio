@@ -5,28 +5,28 @@ import '../styles/About.css';
 
 const timelineData = [
   {
-    year: '2023',
+    year: '2024',
     title: 'Started Programming',
     description: 'Began journey with C, C++, and Python. Focused on core data structures, algorithms, and logical problem-solving foundations.',
     icon: <FiCode />,
   },
   {
-    year: '2024',
+    year: '2025',
     title: 'Started Full Stack Development',
     description: 'Learned HTML, CSS, JavaScript, React, and Java. Created dynamic web systems and designed APIs with Spring Boot and SQL databases.',
     icon: <FiLayers />,
-  },
-  {
-    year: '2025',
-    title: 'Built AI Projects',
-    description: 'Developed ResuNexa (AI resume parsing tool), integrated OpenAI/LLMs, and automated intelligent parsing workflows using Firebase.',
-    icon: <FiCpu />,
   },
   {
     year: '2026',
     title: 'React Native + Cloud',
     description: 'Expanded to cross-platform mobile apps (SplitGrow expense manager, GPS tracking) and automated model hosting on AWS SageMaker.',
     icon: <FiCloud />,
+  },
+  {
+    year: '2026',
+    title: 'Built AI Projects',
+    description: 'Developed ResuNexa (AI resume parsing tool), integrated OpenAI/LLMs, and automated intelligent parsing workflows using Firebase.',
+    icon: <FiCpu />,
   },
   {
     year: 'Current',
@@ -51,9 +51,10 @@ const About = () => {
             Architecting <span className="gradient-text">Intelligence</span>.
           </h2>
           <p className="about-intro-text">
-            I am a Computer Engineering graduate dedicated to building highly scalable software, 
-            resilient cloud applications, and AI-driven solutions. My work bridges the gap between 
-            exceptional user experience and complex backend intelligence.
+            I'm an Information Technology student and Full-Stack Developer passionate
+            about building modern, scalable web applications. I enjoy developing
+            responsive user interfaces, designing robust backend systems, and exploring
+            AI-powered solutions to solve real-world problems.
           </p>
         </div>
 

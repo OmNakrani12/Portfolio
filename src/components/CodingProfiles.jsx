@@ -89,7 +89,7 @@ const CodingProfiles = () => {
             <div className="stats-image-container lc-container">
               <a href="https://leetcode.com/u/omnakrani/" target="_blank" rel="noreferrer" className="leetcode-link">
                 <img 
-                  src="https://leetcard.jacoblin.cool/omnakrani?theme=dark&font=Outfit&ext=activity" 
+                  src="https://leetcard.jacoblin.cool/omnakrani?theme=dark&font=Outfit&ext=contest"
                   alt="LeetCode profile card"
                   className="profile-embed-img"
                 />
@@ -97,71 +97,47 @@ const CodingProfiles = () => {
             </div>
           </motion.div>
 
-          {/* Codeforces Card */}
-          <motion.div 
-            className="profile-card glass-card custom-stat-card"
-            whileHover={{ y: -5 }}
-            transition={{ duration: 0.3 }}
-          >
-            <div className="profile-card-header">
-              <SiCodeforces className="platform-icon codeforces" />
-              <div>
-                <h3>Codeforces</h3>
-                <p>@omnakrani</p>
-              </div>
-            </div>
-            <div className="custom-stats-content">
-              <div className="cs-row">
-                <span className="cs-label">Rating</span>
-                <span className="cs-value cf-specialist">1432 (Specialist)</span>
-              </div>
-              <div className="cs-row">
-                <span className="cs-label">Max Rating</span>
-                <span className="cs-value">1480</span>
-              </div>
-              <div className="cs-row">
-                <span className="cs-label">Solved Count</span>
-                <span className="cs-value">250+ Problems</span>
-              </div>
-              <div className="cs-row">
-                <span className="cs-label">Division</span>
-                <span className="cs-value">Div. 2</span>
-              </div>
-            </div>
-          </motion.div>
+          
+          <motion.div
+  className="profile-card glass-card custom-stat-card"
+  whileHover={{ y: -5 }}
+>
+  <div className="profile-card-header">
+    <img
+      src="../../public/projects/tuf.png"
+      alt="TakeUForward"
+      className="platform-logo"
+      width={60}
+      height={60}
+    />
+    <div>
+      <h3>TakeUForward</h3>
+      <p>Striver A2Z DSA Sheet</p>
+    </div>
+  </div>
 
-          {/* Coding Ninjas Card */}
-          <motion.div 
-            className="profile-card glass-card custom-stat-card"
-            whileHover={{ y: -5 }}
-            transition={{ duration: 0.3 }}
-          >
-            <div className="profile-card-header">
-              <GiNinjaHeroicStance className="platform-icon ninjas" />
-              <div>
-                <h3>Coding Ninjas</h3>
-                <p>@om_nakrani</p>
-              </div>
-            </div>
-            <div className="custom-stats-content">
-              <div className="cs-row">
-                <span className="cs-label">Level Rank</span>
-                <span className="cs-value cn-ninja">Ninja Gold (Level 7)</span>
-              </div>
-              <div className="cs-row">
-                <span className="cs-label">Problems Solved</span>
-                <span className="cs-value">180+ Solved</span>
-              </div>
-              <div className="cs-row">
-                <span className="cs-label">Contest Rating</span>
-                <span className="cs-value">1850</span>
-              </div>
-              <div className="cs-row">
-                <span className="cs-label">Certificates</span>
-                <span className="cs-value">Advanced Algorithms</span>
-              </div>
-            </div>
-          </motion.div>
+  <div className="custom-stats-content">
+    <div className="cs-row">
+      <span className="cs-label">Progress</span>
+      <span className="cs-value">320 / 455</span>
+    </div>
+
+    <div className="cs-row">
+      <span className="cs-label">Completion</span>
+      <span className="cs-value">50%</span>
+    </div>
+
+    <div className="cs-row">
+      <span className="cs-label">Current Topic</span>
+      <span className="cs-value">Dynamic Programming</span>
+    </div>
+
+    <div className="cs-row">
+      <span className="cs-label">Goal</span>
+      <span className="cs-value">Complete A2Z Sheet</span>
+    </div>
+  </div>
+</motion.div>
 
         </div>
       </div>

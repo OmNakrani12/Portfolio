@@ -30,9 +30,10 @@ const Hero = () => {
           </motion.div>
 
           <h1 className="hero-title">
-            Building Digital Products <br />
-            with <span className="gradient-text-cyan-purple">AI</span>, <span className="gradient-text-cyan-purple">Cloud</span> &amp; <br />
-            Modern Tech.
+            Building Full-Stack <br />
+            <span className="gradient-text-cyan-purple">Web Applications</span> <br />
+            with <span className="gradient-text-cyan-purple">AI</span>,{" "}
+            <span className="gradient-text-cyan-purple">Cloud</span> & Modern Tech.
           </h1>
 
           <div className="hero-typed-container">
@@ -43,7 +44,7 @@ const Hero = () => {
                 2000,
                 'React Native Developer',
                 2000,
-                'AI Engineer',
+                'AI/ML Enthusiast',
                 2000,
                 'Cloud Enthusiast',
                 2000,
@@ -99,7 +100,7 @@ const Hero = () => {
             <div className="glowing-ring ring-3" />
             <div className="avatar-frame">
               <img 
-                src="/profile.png" 
+                src="/profile2.png" 
                 alt="Om Nakrani Profile" 
                 className="profile-img"
               />
@@ -108,7 +109,7 @@ const Hero = () => {
             {/* Overlay float elements for visual complexity */}
             <div className="floating-card float-react glass-card">
               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" />
-              <span>React</span>
+              <span>React / Next.js</span>
             </div>
             <div className="floating-card float-ai glass-card">
               <span>🤖 AI / ML</span>

@@ -7,9 +7,15 @@ import {
 import { 
   SiNextdotjs, SiTailwindcss, SiSpringboot, SiFirebase, 
   SiPostgresql, SiDocker, SiPostman, SiPython, SiJavascript,
-  SiTensorflow
+  SiTensorflow,
+  SiMysql,
+  SiMongodb,
+  SiMongoose,
+  SiBootstrap,
+  SiOpencv,
+  SiNumpy
 } from 'react-icons/si';
-import { FiCpu } from 'react-icons/fi';
+import { FiCamera, FiCpu } from 'react-icons/fi';
 import '../styles/Skills.css';
 
 const skillCategories = [
@@ -21,6 +27,7 @@ const skillCategories = [
       { name: 'Python', level: 90, icon: <SiPython color="#3776AB" /> },
       { name: 'Java', level: 85, icon: <FaJava color="#007396" /> },
       { name: 'JavaScript', level: 90, icon: <SiJavascript color="#F7DF1E" /> },
+      { name: 'C', level: 80, icon: <FaCode color="#00599C" /> },
       { name: 'C++', level: 80, icon: <FaCode color="#00599C" /> },
       { name: 'SQL', level: 85, icon: <FaDatabase color="#4479A1" /> },
     ]
@@ -34,6 +41,7 @@ const skillCategories = [
       { name: 'Next.js', level: 88, icon: <SiNextdotjs color="#FFFFFF" /> },
       { name: 'HTML5/CSS3', level: 92, icon: <FaHtml5 color="#E34F26" /> },
       { name: 'Tailwind CSS', level: 90, icon: <SiTailwindcss color="#06B6D4" /> },
+      { name: 'Bootstrap', level: 90, icon: <SiBootstrap color="#7952B3" /> },
     ]
   },
   {
@@ -60,9 +68,10 @@ const skillCategories = [
     title: 'AI / ML',
     icon: <FiCpu />,
     skills: [
-      { name: 'LLM & RAG', level: 80, icon: <FiCpu color="#00F5FF" /> },
-      { name: 'Model Inference', level: 75, icon: <SiTensorflow color="#FF6F00" /> },
-      { name: 'AWS SageMaker', level: 80, icon: <FaAws color="#FF9900" /> },
+      { name: 'TensorFlow', level: 60, icon: <SiTensorflow color="#FF6F00" /> },
+      { name: 'Computer Vision', level: 65, icon: <FiCamera color="#00F5FF" /> },
+      { name: 'OpenCV', level: 60, icon: <SiOpencv color="#5C3EE8" /> },
+      { name: 'NumPy', level: 75, icon: <SiNumpy color="#013243" /> },
     ]
   },
   {
@@ -80,6 +89,8 @@ const skillCategories = [
     icon: <FaDatabase />,
     skills: [
       { name: 'PostgreSQL', level: 85, icon: <SiPostgresql color="#4169E1" /> },
+      { name: 'MySQL', level: 85, icon: <SiMysql color="#4169E1" /> },
+      { name: 'MongoDB', level: 85, icon: <SiMongodb color="#00ED64" /> },
       { name: 'Firebase RTDB', level: 88, icon: <SiFirebase color="#FFCA28" /> },
     ]
   },
@@ -165,7 +176,7 @@ const Skills = () => {
               <div className="skill-card-header">
                 <span className="skill-icon-wrap">{skill.icon}</span>
                 <h3>{skill.name}</h3>
-                <span className="skill-percentage">{skill.level}%</span>
+                {/* <span className="skill-percentage">{skill.level}%</span> */}
               </div>
               <div className="skill-progress-bar-bg">
                 <motion.div 

@@ -1,54 +1,54 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaAws } from 'react-icons/fa';
-import { SiPython, SiCoursera, SiGooglecloud } from 'react-icons/si';
+import { SiPython, SiCoursera, SiGooglecloud, SiCodeblocks, SiReact, SiHackerrank } from 'react-icons/si';
 import { FiAward, FiExternalLink } from 'react-icons/fi';
 import '../styles/Certifications.css';
 
 const certificationsList = [
   {
-    title: 'AWS Certified Cloud Practitioner',
-    issuer: 'Amazon Web Services (AWS)',
-    date: '2026',
-    credentialId: 'AWS-CCP-87192',
-    verifyUrl: 'https://aws.amazon.com/verification',
+    title: 'AWS Academy Graduate - Cloud Foundations',
+    issuer: 'Amazon Web Services (AWS) Academy',
+    date: '07-07-2025',
+    credentialId: 'ffd43780-9d4e-416c-a8ad-9c8328ce039a', // If available
+    verifyUrl: 'https://www.credly.com/badges/ffd43780-9d4e-416c-a8ad-9c8328ce039a',   // If available
     icon: <FaAws className="cert-icon aws" />,
     colorClass: 'aws'
   },
   {
-    title: 'Python Essentials Certification',
-    issuer: 'Python Institute',
-    date: '2024',
-    credentialId: 'PY-ESS-65123',
-    verifyUrl: 'https://pythoninstitute.org',
+    title: 'Python Certification',
+    issuer: 'Hackerrank',
+    date: '2026',
+    credentialId: '49970B065BE0',
+    verifyUrl: 'https://www.hackerrank.com/certificates/49970b065be0',
     icon: <SiPython className="cert-icon python" />,
     colorClass: 'python'
   },
   {
     title: 'Machine Learning Specialization',
     issuer: 'Stanford Online | Coursera',
-    date: '2025',
+    date: '2026',
     credentialId: 'COURSERA-ML-8812',
     verifyUrl: 'https://coursera.org',
     icon: <SiCoursera className="cert-icon coursera" />,
     colorClass: 'coursera'
   },
   {
-    title: 'Google Cloud Career Launch',
-    issuer: 'Google Cloud',
-    date: '2025',
-    credentialId: 'GCP-CL-99214',
-    verifyUrl: 'https://cloud.google.com',
-    icon: <SiGooglecloud className="cert-icon gcp" />,
+    title: 'Problem Solving (Intermediate)',
+    issuer: 'Hackerrank',
+    date: '2026',
+    credentialId: 'BE972E8221FB',
+    verifyUrl: 'https://www.hackerrank.com/certificates/be972e8221fb',
+    icon: <SiHackerrank className="cert-icon gcp" />,
     colorClass: 'gcp'
   },
   {
-    title: 'Deep Learning Specialization',
-    issuer: 'DeepLearning.AI | Coursera',
+    title: 'React Certification',
+    issuer: 'Hackerrank',
     date: '2026',
-    credentialId: 'COURSERA-DL-7731',
-    verifyUrl: 'https://coursera.org',
-    icon: <SiCoursera className="cert-icon coursera" />,
+    credentialId: '66D425C8997A',
+    verifyUrl: 'https://www.hackerrank.com/certificates/66d425c8997a',
+    icon: <SiReact className="cert-icon coursera" />,
     colorClass: 'coursera'
   }
 ];
