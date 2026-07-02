@@ -1,0 +1,69 @@
+.custom-cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent-cyan);
+  box-shadow: 0 0 10px var(--accent-cyan), 0 0 20px var(--accent-cyan);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+.custom-cursor-dot.hovered {
+  width: 12px;
+  height: 12px;
+  background-color: var(--accent-purple);
+  box-shadow: 0 0 10px var(--accent-purple), 0 0 20px var(--accent-purple);
+}
+
+.custom-cursor-dot.clicked {
+  transform: translate(-50%, -50%) scale(0.8);
+}
+
+.custom-cursor-trail {
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid rgba(0, 245, 255, 0.4);
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.1);
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9998;
+  transition: width 0.3s, height 0.3s, border-color 0.3s, background-color 0.3s, transform 0.1s;
+}
+
+.custom-cursor-trail.hovered {
+  width: 60px;
+  height: 60px;
+  border-color: rgba(124, 58, 237, 0.6);
+  background-color: rgba(124, 58, 237, 0.05);
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.2);
+}
+
+.custom-cursor-trail.clicked {
+  transform: translate(-50%, -50%) scale(0.85);
+}
+
+/* Hide default cursor on desktop screens */
+@media (min-width: 1024px) {
+  body {
+    cursor: none;
+  }
+  a, button, input, textarea, select, .glass-card {
+    cursor: none !important;
+  }
+}
+
+/* Fallback for touch devices */
+@media (max-width: 1023px) {
+  .custom-cursor-dot,
+  .custom-cursor-trail {
+    display: none !important;
+  }
+  body {
+    cursor: auto !important;
+  }
+}
