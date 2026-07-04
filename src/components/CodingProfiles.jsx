@@ -99,45 +99,45 @@ const CodingProfiles = () => {
 
           
           <motion.div
-  className="profile-card glass-card custom-stat-card"
-  whileHover={{ y: -5 }}
->
-  <div className="profile-card-header">
-    <img
-      src="../../public/projects/tuf.png"
-      alt="TakeUForward"
-      className="platform-logo"
-      width={60}
-      height={60}
-    />
-    <div>
-      <h3>TakeUForward</h3>
-      <p>Striver A2Z DSA Sheet</p>
-    </div>
-  </div>
+            className="profile-card glass-card custom-stat-card"
+            whileHover={{ y: -5 }}
+          >
+            <div className="profile-card-header">
+              <img
+                src="../../public/projects/tuf.png"
+                alt="TakeUForward"
+                className="platform-logo"
+                width={60}
+                height={60}
+              />
+              <div>
+                <h3>TakeUForward</h3>
+                <p>Striver A2Z DSA Sheet</p>
+              </div>
+            </div>
 
-  <div className="custom-stats-content">
-    <div className="cs-row">
-      <span className="cs-label">Progress</span>
-      <span className="cs-value">320 / 455</span>
-    </div>
+            <div className="custom-stats-content">
+              <div className="cs-row">
+                <span className="cs-label">Progress</span>
+                <span className="cs-value">220 / 455</span>
+              </div>
 
-    <div className="cs-row">
-      <span className="cs-label">Completion</span>
-      <span className="cs-value">50%</span>
-    </div>
+              <div className="cs-row">
+                <span className="cs-label">Completion</span>
+                <span className="cs-value">48%</span>
+              </div>
 
-    <div className="cs-row">
-      <span className="cs-label">Current Topic</span>
-      <span className="cs-value">Dynamic Programming</span>
-    </div>
+              <div className="cs-row">
+                <span className="cs-label">Current Topic</span>
+                <span className="cs-value">Dynamic Programming</span>
+              </div>
 
-    <div className="cs-row">
-      <span className="cs-label">Goal</span>
-      <span className="cs-value">Complete A2Z Sheet</span>
-    </div>
-  </div>
-</motion.div>
+              <div className="cs-row">
+                <span className="cs-label">Goal</span>
+                <span className="cs-value">Complete A2Z Sheet</span>
+              </div>
+            </div>
+          </motion.div>
 
         </div>
       </div>

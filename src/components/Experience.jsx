@@ -5,36 +5,22 @@ import '../styles/Experience.css';
 
 const experiences = [
   {
-    role: 'Software Developer Intern',
-    company: 'Tech Solutions Corp',
-    duration: 'June 2025 - August 2025',
-    type: 'internship',
-    icon: <FiBriefcase />,
-    description: 'Developed full stack web application features using React, Spring Boot, and PostgreSQL. Automated model deployment APIs utilizing AWS SageMaker and Firebase Authentication modules, decreasing query latency by 18%.',
-  },
-  {
-    role: 'Hackathon Lead & Developer',
-    company: 'Smart City Hackathon',
-    duration: 'October 2025',
+    role: 'Hackathon Tech Lead',
+    company: 'DDU 5.0 Hackathon',
+    duration: '2026',
     type: 'hackathon',
     icon: <FiAward />,
-    description: 'Led a 4-person team to build SplitGrow, a collaborative expense manager. Programmed real-time Firebase syncing, offline data handling, and visual charts, winning 1st Runner Up among 50+ competing teams.',
+    description:
+      'Served as Tech Lead for a 4-member team during DDU 5.0 Hackathon. Led the development of ResuNexa, an AI-powered resume analyzer that evaluates ATS compatibility, extracts resume information, identifies missing skills, and provides actionable feedback for job seekers.',
   },
   {
-    role: 'Tech Lead / Student Coordinator',
-    company: 'Computer Engineering Student Society',
-    duration: '2024 - 2025',
+    role: 'Tech Lead & Full Stack Developer',
+    company: 'QuickHire',
+    duration: '2025 - 2026',
     type: 'leadership',
     icon: <FiUsers />,
-    description: 'Organized and mentored 150+ students in hands-on workshops covering web architecture, Git/GitHub, and cloud hosting. Coordinated programming bootcamps and competitive coding practice sessions.',
-  },
-  {
-    role: 'Volunteer Web Developer',
-    company: 'Community Tech Network',
-    duration: 'January 2024 - Present',
-    type: 'volunteer',
-    icon: <FiHeart />,
-    description: 'Designed and deployed responsive web portals for local non-profit organizations using React and modern CSS, facilitating better community engagement and improving site load times by 30%.',
+    description:
+      'Served as Tech Lead while contributing to full-stack development of QuickHire. Managed technical planning, implemented core features using modern web technologies, integrated APIs, and ensured timely delivery of project milestones.',
   }
 ];
 

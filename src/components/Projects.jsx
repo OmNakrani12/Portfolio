@@ -12,21 +12,35 @@ const projectsList = [
     features: ['NLP & Keyword Analysis', 'ATS Score Calculator', 'PDF Upload Parsing', 'Tailored Improvement Suggestions'],
     tech: ['React', 'Next.js', 'OpenAI API', 'Firebase RTDB', 'Firebase Auth'],
     image: '/projects/resunexa.png',
-    github: 'https://github.com/OmNakrani12',
-    demo: 'https://github.com/OmNakrani12',
+    github: 'https://github.com/OmNakrani12/Resume_Analyzer',
+    demo: 'https://resume-ai-virid-one.vercel.app/',
     caseStudy: '#contact',
     gridSpan: 'span-2-cols'
   },
   {
     id: 'quickhire',
     title: 'QuickHire',
-    subtitle: 'Smart Hiring Platform',
-    description: 'A recruitment hub connecting candidates and job hirers through automated scheduling, visual profiles, and application pipelines.',
-    features: ['Interactive Kanban Board', 'Interview Scheduling', 'Real-time Messaging', 'Recruiter Dashboard'],
-    tech: ['React', 'Spring Boot', 'PostgreSQL', 'Firebase Auth'],
+    subtitle: 'Workforce Management Platform',
+    description:
+      'A full-stack workforce management platform that connects contractors with skilled workers through intelligent job matching, real-time messaging, project management, and secure hiring workflows.',
+    features: [
+      'Smart Job Matching',
+      'Real-time Messaging',
+      'Project Management Dashboard',
+      'Job Posting & Applications',
+      'Worker Discovery',
+      'Role-based Authentication'
+    ],
+    tech: [
+      'React',
+      'Spring Boot',
+      'PostgreSQL',
+      'Firebase Authentication',
+      'WebSocket'
+    ],
     image: '/projects/quickhire.png',
-    github: 'https://github.com/OmNakrani12',
-    demo: 'https://github.com/OmNakrani12',
+    github: 'https://github.com/OmNakrani12/QuickHire',
+    demo: 'https://quick-hire-sooty.vercel.app/',
     caseStudy: '#contact',
     gridSpan: 'span-1-col'
   },
@@ -38,8 +52,8 @@ const projectsList = [
     features: ['Group Bill Splitting', 'Visual Spending Charts', 'Transaction Categorization', 'Offline Syncing Mode'],
     tech: ['React Native', 'Expo', 'Next.js', 'Firebase RTDB'],
     image: '/projects/splitgrow.png',
-    github: 'https://github.com/OmNakrani12',
-    demo: 'https://github.com/OmNakrani12',
+    github: 'https://github.com/OmNakrani12/SplitGrow',
+    demo: '',
     caseStudy: '#contact',
     gridSpan: 'span-1-col'
   },
@@ -64,8 +78,8 @@ const projectsList = [
     features: ['Live Background Geolocation', 'Interactive Dark Map Layer', 'Movement Speed Analytics', 'Exportable GeoJSON Route Trails'],
     tech: ['React Native', 'Expo Mapview', 'Node.js', 'PostgreSQL'],
     image: '/projects/gpstracking.png',
-    github: 'https://github.com/OmNakrani12',
-    demo: 'https://github.com/OmNakrani12',
+    github: 'https://github.com/OmNakrani12/TrackSphere',
+    demo: 'https://expo.dev/accounts/nakraniom/projects/tracksphere/builds/29ee2a74-1c5a-4c9d-bd75-eee32e2a4808',
     caseStudy: '#contact',
     gridSpan: 'span-1-col'
   }
