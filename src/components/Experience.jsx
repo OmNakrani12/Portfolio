@@ -6,7 +6,7 @@ import '../styles/Experience.css';
 const experiences = [
   {
     role: 'Hackathon Tech Lead',
-    company: 'DDU 5.0 Hackathon',
+    company: 'DUHacks 5.0 Hackathon',
     duration: '2026',
     type: 'hackathon',
     icon: <FiAward />,

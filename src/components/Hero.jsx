@@ -66,8 +66,8 @@ const Hero = () => {
               View Projects <FiArrowRight />
             </a>
             <a 
-              href="/resume.pdf" 
-              download="Om_Nakrani_Resume.pdf" 
+              href="../../public/projects/Resume.pdf"
+              download="Om_Nakrani_Resume.pdf"
               className="btn btn-secondary"
             >
               Download Resume <FiDownload />
