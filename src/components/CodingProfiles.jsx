@@ -104,7 +104,7 @@ const CodingProfiles = () => {
           >
             <div className="profile-card-header">
               <img
-                src="../../public/projects/tuf.png"
+                src="/projects/tuf.png"
                 alt="TakeUForward"
                 className="platform-logo"
                 width={60}

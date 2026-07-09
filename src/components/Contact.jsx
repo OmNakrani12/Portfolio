@@ -104,7 +104,7 @@ const Contact = () => {
             </div>
 
             <a 
-              href="../../public/projects/Resume.pdf"
+              href="/projects/Om_Nakrani_Resume.pdf"
               download="Om_Nakrani_Resume.pdf" 
               className="btn btn-outline cv-download-btn"
             >
